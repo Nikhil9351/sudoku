@@ -70,7 +70,7 @@ export default function Home({ grid }) {
         <Head>
           <meta
             name="description"
-            content="A Sudoku api made in graphql. Solve Sudoku query a 9x9 board and get it's solution"
+            content="A Sudoku api. Solve Sudoku query a 9x9 board and get it's solution"
           />
           <title>Dosuku</title>
         </Head>
@@ -79,7 +79,7 @@ export default function Home({ grid }) {
           <h3 onClick={() => getToDiv("start")}>Get Started</h3>
           <h3 onClick={() => getToDiv("working")}>Working</h3>
           <h3 onClick={() => getToDiv("about")}>About</h3>
-          <Link href="https://github.com/Marcus0086">
+          <Link href="https://github.com/Nikhil9351">
             <IconButton aria-label="gitbutton">
               <GitHubIcon />
             </IconButton>
